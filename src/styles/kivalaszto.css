@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(0, 0, 0, 0.859);
+    color: white;
+}
+a{
+    color: rgb(241, 215, 47);
+    text-decoration: none;
+}
+li{
+    background-color: rgb(121, 119, 119);
+    width: 8em;
+    margin: 1em;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+
+.menu{
+    margin: 3em;
+}
+.jatekter{
+    margin: 5em auto;
+    text-align: center;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(61, 65, 66);
+    border: .2em solid rgba(0, 0, 0, 0.808) ;
+}
+
+.cim{
+    padding: 1em;
+    font-size: 1.3em;
+    border-radius: 15px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.349);
+}
+
+.cim, .gomb button{
+    background-color:rgba(66, 173, 64, 0.668);
+
+}
+
+.mondat{
+    padding: 1em;
+}
+
+.pontok{
+    padding: 1.5em;
+    text-align: left;
+}
+
+.pontok span{
+    margin-left: 15px;
+}
+
+select, option{
+    background-color: rgb(253, 255, 253);
+    border-radius: 10px;
+    margin: 0 .4em;
+    padding: 5px;
+}
+
+.gomb{
+    float: inline-end;
+}
+
+.gomb button{
+    color: white;
+    border-radius: 20px;
+    padding: .2em 1em;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.52);
+}
